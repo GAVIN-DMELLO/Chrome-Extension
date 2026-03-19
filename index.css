@@ -9,7 +9,7 @@ button{
   display:block;
   background-color:#5f9341;
   color:white;
-  border:none;
+  border:1px solid #5f9341;
   margin-top:5px;
   padding:14px 40px 14px 40px;
   font-weight:bold;
@@ -36,4 +36,15 @@ li{
 li a{
   text-decoration:none;
   color:#5f9341;
+}
+
+#btn-div{
+  display:flex;
+  gap:2rem;
+}
+
+#delete-btn{
+  color:#5f9341;
+  background-color:white;
+  border-width:2px;
 }
